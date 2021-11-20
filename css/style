@@ -1,0 +1,371 @@
+*{
+    margin: 100;
+    padding: 25;
+    text-align: center;
+    
+}
+.index {
+    margin: 100;
+    padding: 25;
+    
+    
+    
+}
+
+/*background image*/
+html{
+    background: url(hillsofdonegal.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+   
+}
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: snow;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover*/
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+}
+.gallery-links-h2{
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+.gallery-links{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+gallery-img{
+    flex-basis: 300px;
+    margin: 10px;
+    
+}
+gallery-links{
+    display: ;
+    flex-flow: row wrap;
+    
+}
+@media only screen and (min-width: 762px){
+    .gallery-links-h2{
+        font-size: 28px;
+    }
+
+.wrapper1{
+    margin: 0px 200px 20px;
+    padding: 0px 200px 20px;
+    background-color: wheat;
+
+
+}
+
+h2{
+    text-align: center;
+    font-family:monospace;
+    font-size: 40px;
+    padding: 10px 0 70px 0px; 
+    color: saddlebrown;
+}
+
+<!--h3{
+    
+    font-family: monospace;
+    color: saddlebrown;
+    text-align: right;
+    }-->
+    
+  .blog {
+    color:black;
+    font-size:  20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100px;
+    margin:40px;
+    padding: 10px 50px 30px 5px;
+    background-color: snow;
+    text-align: center;
+    border-color: black;
+    line-height: 27px;
+    box-shadow: 5px 10px black;  
+    }
+    
+  .mission {
+    color:black;
+    font-size:  20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100px;
+    margin:40px;
+    padding: 10px 15px 10px 15px;
+    background-color: snow;
+    text-align: center;
+    border-color: black;
+    line-height: 27px;
+    box-shadow: 5px 10px black;  
+    
+}
+.team1 {
+    color:black;
+    font-size:  20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100px;
+    margin:40px;
+    padding: 10px 15px 10px 15px;
+    background-color: snow;
+    text-align: center;
+    box-shadow: 5px 10px black;
+}
+
+  .team2 {
+    color: black;
+    font-size:  20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100px;
+    margin:40px;
+    padding: 10px 15px 10px 15px;
+    background-color: snow;
+    text-align: center;
+    box-shadow: 5px 10px black;  
+}
+ #rcorners3 {
+  border-radius: 25px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+
+}
+.container{
+    height: 600px;
+    
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+}
+#contact{
+    
+    font-family: monospace;
+    color: saddlebrown;
+    text-align: left;
+    
+}
+
+#email{
+    
+    font-family: monospace;
+    color: saddlebrown;
+    text-align: right;
+}
+
+#ul{
+    
+    text-decoration-line: underline;
+}
+
+#ph1{
+    
+    font-family: monospace;
+    color: saddlebrown;
+    text-align: left;
+}
+
+.video{
+
+    padding: 0px 0 150px 0;
+}
+
+/*.wrapper_img_bottom{
+    
+    margin-left: 250px;
+    padding: 70px 80px 70px;
+    background-color: red;*/
+
+}
+
+.wrapper_img{
+    margin: 40px 50px 40px 50px;
+    padding: 70px 500px;
+    background-color: whitesmoke;
+
+}
+
+.width{
+    width: 150px;
+    height: 100px;
+
+}
+
+
+.fb {
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+    align-items: left;
+   
+}
+
+.insta {
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+    align-items: flex-start;
+     
+}
+
+#copyright{
+    margin-left: 50px;
+    text-align: left;
+}
+.news {
+    float: center;
+    color:black;
+    font-size:  20px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 50px;
+    margin: 100px;
+    padding: 10px 15px 10px 15px;
+    background-color: lightcyan;
+    text-align: center;
+    border-color: black;
+    line-height: 27px;
+}
+/*signup*/
+*{
+                font-family: sans-serif;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+ 
+            body{
+                background: linear-gradient(to right, 10%,#2b8e8b);
+            }
+ 
+            .form-wrapper{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 20px;
+                width: 400px;
+                padding:20px;
+                border: 1px solid #ffffff;
+                 
+            }
+ 
+            h1{
+                color: midnightblue;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+ 
+            label{
+                color: white;
+                font-size: large;
+            }
+ 
+            input{
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0px 10px 0;
+                background: linear-gradient(to right,#014d6f 10%,#2b8e8b);
+                border: 1px solid white;
+                border-radius: 5px;
+                color: black;
+                display: inline-block;
+            }
+             
+ 
+            input[type="submit"]{
+                font-size: 20px;
+                color: white;
+                background: rgba(8, 212, 8, 0.664);
+            }
+ 
+            input[type="submit"]:hover{
+                cursor: pointer;
+                background: rgba(8, 212, 8, 0.815);
+            }
